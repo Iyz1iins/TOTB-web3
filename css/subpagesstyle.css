@@ -1,0 +1,479 @@
+@import url('https://fonts.googleapis.com/css2?family=Agbalumo&display=swap');
+
+  @import url('https://fonts.googleapis.com/css2?family=Agbalumo&family=Bebas+Neue&family=Inter:wght@500&family=Italiana&family=Oswald:wght@500&display=swap');
+
+:root{
+    margin:0;
+}
+
+
+#accountname {
+    color: white;
+    font-size: 1.15rem;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 18px;
+    position: relative;
+}
+.shared-body{
+    margin:0;
+    text-align: center;
+    scroll-behavior: smooth;
+    font-family: 'Montserrat', sans-serif;
+}
+#japanbody{background-color:#342048;}
+#italybody{ background-color: #aacafb;}
+#egyptbody{ background-color:#c28c4e;}
+
+#container{width:100%;
+    height:100%;
+    margin:0 auto;}
+#header1{
+   width:100%;
+   height:100%;}
+.back-video{
+    position: absolute;
+    right: 0;;
+    bottom:0;
+    z-index: -1;
+}
+@media(min-aspect-ratio: 16/9){
+    .back-video{
+        width:100%;
+        height: auto;
+    }
+}
+@media(max-aspect-ratio: 16/9){
+    .back-video{
+        width:auto;
+        height: 100%;
+    }
+}
+
+.logo{
+    font-size: 2rem;
+    color: white;
+    text-decoration: none;
+    font-weight: 700;}
+
+
+  .header{
+    position: absolute;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    top: 0;
+    left: 0;
+    width: 80%;
+    height: 40px;
+    padding: 1.2rem 10%;
+    background-color: rgba(0, 0, 0, .1);
+    backdrop-filter: blur(50px);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;}
+  
+.dropbtn{
+    font-size: 18px; }
+
+.dropdown {
+    position: relative;
+    display: inline-block;}
+
+.dropbtn:focus + .dropdown-content {
+    display: block;
+}
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: rgba(0, 0, 0, .1);
+    backdrop-filter: blur(50px);
+    min-width: 100px;
+    height: 157px;
+    box-sizing: border-box; 
+    margin-top: 27px;
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: white;
+    padding: 12px 16px;
+    text-align: center;
+    text-decoration: none;
+    display: block;
+    padding-top: 16px;}
+
+.dropdown-content a:hover {
+    content: none;
+    background-color: transparent;
+    text-decoration: none;}
+
+.dropdown:hover .dropdown-content {
+    display: block;}
+.navbar1 ul li a {
+    font-size: 1.15rem;
+    text-decoration: none;
+    font-weight: 500;
+    position: relative;
+    color: white;}
+
+.navbar1 ul li a:after {
+    content: "";
+    position: absolute;
+    height: 3px;
+    width: 0;
+    left: 0;
+    bottom: -10px;
+    transition: 0.3s;}
+
+
+.japan-navbar1 ul li a:after {
+    background-color: #7e769b;}
+.japan-navbar1 ul li a:hover {
+    color:#7e769b;}  
+.italy-navbar1 ul li a:after {
+        background-color: #456ef4;}
+.italy-navbar1 ul li a:hover {
+        color:#456ef4;}  
+.egypt-navbar1 ul li a:after {
+    background-color: #c28c4e;}
+.egypt-navbar1 ul li a:hover {
+        color: white;}
+
+
+
+.navbar1 ul li a:hover:after {
+    width: 100%;
+}.navbar1 ul li a {
+    font-size: 18px;
+}
+.navbar1 li{
+    display: inline-block;
+    list-style: none;
+    padding:0px 20px ;
+    }
+.navbar1 li a:hover{
+        color:#456ef4;
+        transition: all 0.4s ease 0s;
+    }
+   
+
+#header1 h1{
+    font-size: 5em;
+    color: white;
+    font-family: 'Italiana', sans-serif;
+    text-align: center;
+    padding-top:3.2em;
+    clear:both;
+    
+}
+#header1 h2{
+    color: white;
+    font-family: 'Italiana', sans-serif;
+    margin-top: -1em;
+    font-size: 2.3em;
+    font-weight: lighter;
+}
+.navbar2{
+    background:rgba(0, 0, 0, 0.4);
+    border-radius: 50px;
+    padding: 10px;
+    box-shadow: 0 25px 20px -20px rgba(0, 0, 0, 0.4);
+    width:50%;
+    height: 5%;
+    margin: 4em auto 0;
+}
+.navbar2 a{
+    color: aliceblue;
+    text-decoration: none;
+}
+.navbar2 ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 3px 33px;
+    margin:1px;
+    font-size: 18px;
+    font-weight: 500;
+    cursor: pointer;
+    position: relative;
+    z-index: 2;
+    transition: color 0.5s;
+    
+}
+.navbar2 li a{
+    position: relative;
+    top:-10px;
+}
+.navbar2 ul li::after{
+    content:'';
+    width:100%;
+    height:100%;
+    border-radius: 30px;
+    position: absolute;
+    top:150%;
+    left:50%;
+    transform: translate(-50%, -50%);
+    z-index: -1;
+    opacity: 0;
+    transition: top 0.5s,opacity 0.5s;
+    margin-top: -10px;
+    
+}
+
+
+.japan-navbar2 ul li::after
+{background: #7e769b;}
+
+.italy-navbar2 ul li::after
+{background: #456ef4;}
+
+.egypt-navbar2 ul li::after{background: #c28c4e;}
+
+
+
+
+.navbar2 ul li:hover{
+color:#fff;
+}
+.navbar2 ul li:hover::after{
+    top:50%;
+    opacity: 1;
+}
+
+
+
+ #mid1{
+    width:100%;
+    margin:0 auto;
+ }
+ #mid1 h1{
+    font-weight:bold;
+    font-family: 'Italiana', sans-serif;}
+ #mid1 h1 a{
+    color: white;
+ text-decoration: none;
+ font-size:1.2em;
+ }
+ .mid2-h1{
+    padding-top: 1em;
+    font-weight:bold;
+    font-family: 'Italiana', sans-serif;
+
+ }
+ .mid2-h1 a{
+    color:white;
+    text-decoration:none ;
+    font-size:1.2em;
+    padding-bottom: 30px;
+
+
+ }
+
+ .card {
+    width: 18em;
+    height: 31.25em;
+    border-radius: 1.25em;
+    overflow: hidden;
+    border: 0.125em solid white;
+    position: relative;
+    display: inline-block;
+    margin: 0.3125em;
+  }
+.card-img{
+    width:100%;
+    height:100%;
+    object-fit: cover;
+    border-radius: 15px;
+}
+.card-body{
+    width: 80%;
+    height: 100%;
+    top:0;
+    right: -100%;
+    position: absolute;
+    color:white;
+    backdrop-filter: blur(5px);
+    border-radius: 0.9375em;
+    padding: 1.875em;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    transition: 2s;
+}
+.card:hover .card-body{
+right:0;
+}
+.japancard-btn:hover{
+    background: #7e769b;
+    color: #8fabba;
+}
+.italycard-btn:hover{
+    background:#436399; 
+    color: #aacafb;}
+
+    .egyptcard-btn:hover{
+        background: #8e5d31;
+        color: white;
+    }
+
+
+.card-title{
+text-transform: uppercase;
+font-size: 30px;
+font-weight: 500;
+}
+.card-sub-title{
+    text-transform: capitalize;
+    font-size: 14px;
+    font-weight: 300;
+}
+.card-info{
+    font-size: 16px;
+    line-height: 25px;
+    margin:40px 0;
+    font-weight: 400;
+
+}
+.card-btn{
+    width:120px;
+    background: #aacafb;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-transform: capitalize;
+    border: none;
+    outline: none;
+    font-weight: 500;
+    cursor: pointer;  
+}
+
+.japancard-btn{
+    color:#7e769b;
+    background: #8fabba;
+}
+.italycard-btn{
+    background: #aacafb;
+    color:#436399; 
+}
+.egyptcard-btn{
+        background: #c28c4e;
+        color:#1f3d47;
+}
+
+
+.mid2{
+    display: flex;
+}
+#mid3{
+    display: flex;
+    margin-top: 2em;
+}
+.mid4{
+    display:flex;
+    margin-top:2em;
+}
+
+.box{
+    margin-left: 20px;
+   background-color: #436399;
+    width:50%;
+    height:40%;
+    border-radius: 20px;
+    color:aliceblue;
+    padding:2px;
+    
+}
+
+.japanbox{
+    background-color: #7e769b;}
+
+  .italybox{
+    background-color: #436399; }
+
+    .egyptbox{
+        background-color: #8e5d31;
+    }
+
+.box img{
+    width:45%;
+    height: 300px;
+    border-radius: 20px;
+}
+.box p{
+    padding: 10px;
+    margin-top:1em ;
+    width:50%;
+    
+}
+.box a{
+    color: aliceblue;
+    font-weight: bold;
+    font-size: 25px;
+    text-decoration: none;
+}
+.box a:hover{
+    color:#8fabba;
+}
+
+
+.leftp{
+    float: left;
+}
+
+.left {
+    float:left;
+    
+    
+}
+.right{
+    float:right;
+    
+}
+
+.Footer{
+    height:30%;
+    border-radius: 4px;
+    margin-top: 3em;
+}
+
+.japanfooter {
+    background: #7e769b;
+}
+.italyfooter{
+    background-color: #436399;
+}
+
+.egyptfooter{
+    background:#8e5d31;
+}
+
+.Footer li{
+    list-style: none;
+    display: inline;
+    font-size: large;
+    padding: 7px;
+    margin-right:20px ;
+    
+}
+.Footer li a{
+    color: aliceblue;
+    text-decoration:none;
+
+}
+.Footer li a:hover{
+    color: #8fabba;
+
+}
+.socialIcons a{
+text-decoration:none;
+padding:10px;
+margin-top: 10px;
+}
+.socialIcons a i{
+    color: #8fabba;
+    font-size: 2em;
+    opacity: 0.9;
+}
+.socialIcons a i:hover{
+    color:black;
+    
+}

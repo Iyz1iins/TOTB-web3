@@ -1,0 +1,301 @@
+<html>
+
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, intial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+<link rel="stylesheet" href="../css/homestyles.css">
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,200;1,300&display=swap" rel="stylesheet">
+
+<script src="../script.js"></script>
+
+</head>
+
+<body>
+    
+    <div class="hero">
+
+        
+        <video autoplay loop muted plays-inline class="backvideo">
+            <source src="../videos/home.mp4" type="video/mp4">
+        </video>
+
+        <header class="header">
+            <a href="index.html" class="logo">Ushop</a>
+    
+            <nav class="navbar1">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li class="dropdown">
+
+                        <a href="#" class="dropbtn">
+                            Categories <i class="fas fa-caret-down"></i>
+                        </a>
+                        <div class="dropdown-content">
+                            
+                           <a href="Furniture.html">funiture</a> 
+                            <a href="Electronics.html">Electronics</a>
+                            <a href="Clothes.html">Clothes</a>
+                        </div>
+                    </li>
+                   
+                    <li><a href="makingofushop.html">Making of Ushop</a></li>
+                    <li><a href="ourstory.html">Our story</a></li>
+                </ul>
+            </nav>
+            
+        
+                     
+<button class="btn1" onclick="showRegistrationForm()">Get Started</button>
+<span id="userName" style="display: none;"></span> <!-- Element to display the registered user's name -->
+
+
+
+          </header>
+
+          <div class="title">
+            <h1>USHOP</h1>
+        </div>
+
+<div id="mainForm">
+       
+        <div id="registrationFormContainer"></div>
+        
+</div>
+
+
+
+  </div>
+</div>
+
+
+    <div class="search-section">
+        <div class="info-text">
+            <h2>Find Information About Items</h2>
+            <p>Explore and discover details about different products around the world. Select an Item from the list to access relevant information.</p>
+        </div>
+        <div class="search-form-container">
+
+            <form1 action="/search" method="get" class="search-form">
+                <select name="country" class="country-select">
+                    <option value="" selected disabled>Select a product</option>
+                    <option value="country1"> 
+                        <a href="Electronics.html">Electronics</a>
+                    </option>
+                    <option value="country2"> 
+                        <a href="Clothes.html">Clothes</a>
+                    </option>
+                    <option value="country2"> 
+                       <a href="Furniture.html">Furniture</a>
+                    </option>
+                    <option value="country2">Accessories</option>
+                    <option value="country2">Books</option>
+                    <option value="country2">Wallpapers</option>
+
+                </select>
+                <button type="submit1" class="search-button">Search</button>
+            </form1>
+        </div>
+       
+
+
+        
+    </div>    
+
+
+
+    
+    <section class="destinations-section">
+        <div class="headingsection">
+            <h1>Must-Visit Categories</h1>
+            <h2> Discover the Unforgettable!</h2>
+        </div>
+        <div class="card-grid">
+            <a class="card egypt" href="Electronics.html">
+                <div class="card__background"></div>
+                <div class="card__content">
+                    <p class="card__category">Electronics</p>
+                    <h3 class="card__heading">CPU</h3>
+                </div>
+            </a>
+            <a class="card japan" href="Furniture.html">
+                <div class="card__background"></div>
+                <div class="card__content">
+                    <p class="card__category">furniture</p>
+                    <h3 class="card__heading">Living Room Set</h3>
+                </div>
+            </a>
+            <a class="card italy" href="Clothes.html">
+                <div class="card__background"></div>
+                <div class="card__content">
+                    <p class="card__category">Clothes</p>
+                    <h3 class="card__heading">Popluar Outfit Set</h3>
+                </div>
+            </a>
+            <a class="card malaysia" href="#">
+                <div class="card__background"></div>
+                <div class="card__content">
+                    <p class="card__category">Accessories</p>
+                    <h3 class="card__heading">clothing Accessories</h3>
+                </div>
+            </a>
+            <!-- Add more destination cards as needed -->
+        </div>
+    </section>
+
+    <div class="DiscoveryPanel">
+        <div class="gallery">
+            <div class="box row-2 box-1">
+                <a href="#">Table Set</a>
+            </div>
+            <div class="box col-2 box-2">
+                <a href="#">Iphone 15 Pro Max</a>
+            </div>
+            <div class="box box-3">
+                <a href="#">Gucci Shirt</a>
+            </div>
+            <div class="box row-2 box-4">
+                <a href="#">LV Bag</a>
+            </div>
+            <div class="box col-2 box-5">
+                <a href="#">Shoes</a>
+            </div>
+            <div class="box box-6">
+                <a href="#">Laptop</a>
+            </div>
+            <div class="box col-2 box-7">
+                <a href="#">Popluar Items</a>
+            </div>
+           
+        </div>
+        <div class="right-text">
+            <h2 class="heading3">DISCOVER NEW HORIZONS!</h2>
+            <p class="subheading">Where stories unfold with every product, immerse yourself in the allure of Categories.</p>                    
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+    <!--<section class="traveler-experiences">
+        <div class="full-boxer">
+            <div class="comment-box">
+                <div class="box-top">
+                    <div class="Profile">
+                        <div class="profile-image">
+                            <img src="../images/rev1.jpg" alt="Ranidi Lochana">
+                        </div>
+                        <div class="Name">
+                            <strong>Nomadic Matt</strong>
+                            <span>@NomadicMatt</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="comment">
+                    <p>
+                        Just returned from a solo trip to Japan! For fellow travelers, I'd recommend exploring Kyoto's ancient temples and trying authentic sushi at local joints.
+                    </p>
+                </div>
+            </div>
+    
+            <div class="comment-box">
+                <div class="box-top">
+                    <div class="Profile">
+                        <div class="profile-image">
+                            <img src="../images/rev5.jpg" alt="Senuda Dilwan">
+                        </div>
+                        <div class="Name">
+                            <strong>Drew Binsky</strong>
+                            <span>@DrewBinsky</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="comment">
+                    <p>
+                        Recently hiked Machu Picchu! Don't miss sunrise at the Sun Gate. Ensure to pack light but essential gear for the trek.
+                    </p>
+                </div>
+            </div>
+    
+            <div class="comment-box">
+                <div class="box-top">
+                    <div class="Profile">
+                        <div class="profile-image">
+                            <img src="../images/rev3.jpg" alt="Rumali Fernando">
+                        </div>
+                        <div class="Name">
+                            <strong> Kate and Nate</strong>
+                            <span>@KateAndNate</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="comment">
+                    <p>
+                        Explored the hidden gems of Italy! A gelato stop at every corner was our secret to beating the summer heat while wandering through historic towns.
+                    </p>
+                </div>
+            </div>
+    
+            <div class="comment-box">
+                <div class="box-top">
+                    <div class="Profile">
+                        <div class="profile-image">
+                            <img src="../images/rev4.jpg" alt="Midinu Thiranjana">
+                        </div>
+                        <div class="Name">
+                            <strong> Eva Zu Beck</strong>
+                            <span>@EvaZuBeck</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="comment">
+                    <p>
+                        Adventure in South Africa! Don't skip a safari at Kruger National Park. Witnessing wildlife in their natural habitat was surreal.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>-->
+    
+
+
+
+
+  <div id="Footer">
+    <br><br>
+    <a name="contact"><div class="socialIcons"></a>
+      <a href=""><i class="fa-brands fa-facebook"></i></a>
+      <a href=""><i class="fa-brands fa-instagram"></i></a>
+      <a href=""><i class="fa-brands fa-twitter"></i></a>
+      <a href=""><i class="fa-brands fa-snapchat"></i></a>
+      <a href=""><i class="fa-brands fa-youtube"></i></a>
+    </div><br><br>
+<ul>
+    <li><a href="index.html">Home</a></li>
+    <li><a href="Electronics.html">Electronics</a></li>
+    <li><a href="Clothes.html">Clothes</a></li>
+    <li><a href="Furniture.html">Furniture</a></li>
+    <li><a href="makingofushop.html">Making of Ushop</a></li>
+    <li><a href="ourstory.html">Our Story</a></li>
+</ul><br><br>
+<p>Copy right &copy;2023; Designed by <span>Ushop</span></p>
+<br>
+</div>
+
+
+</html>
+
+
+
+

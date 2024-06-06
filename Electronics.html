@@ -1,0 +1,195 @@
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="../css/subpagesstyle.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, intial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<script>
+    document.addEventListener('DOMContentLoaded', function () {
+    // Retrieve user's name from local storage
+    var firstName = localStorage.getItem('firstName');
+    var lastName = localStorage.getItem('lastName');
+
+    // Display the user's name in the accountname div
+    var accountDiv = document.getElementById('accountname');
+    if (firstName && lastName) {
+        accountDiv.innerHTML = `Explorer ${firstName} ${lastName}`;
+    }
+});
+</script>
+
+    </head>
+
+
+    
+    <body id="egyptbody" class="shared-body">
+        <div id="container">
+<div id="header1">
+    <video autoplay loop muted plays-inline class="back-video">
+        <source src="../videos/Electronic Circuit video.mp4" type="video/mp4">
+    </video>
+
+<header class="header ">
+    <a href="index.html" class="logo">Ushop</a>
+
+    <nav class="navbar1 egypt-navbar1">
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li class="dropdown">
+
+                <a href="#" class="dropbtn">
+                    Categories <i class="fas fa-caret-down"></i>
+                </a>
+                <div class="dropdown-content">
+                    
+                   <a href="Furniture.html">Furniture</a> 
+                    <a href="Clothes.html">Clothes</a>
+                    <a href="Electronics.html">Electronics</a>
+                </div>
+            </li>
+           
+            <li><a href="makingofushop.html">Making of Ushop</a></li>
+            <li><a href="ourstory.html">About us</a></li>
+        </ul>
+</nav>
+    
+
+<div id="accountname">
+</div>
+
+
+    </header>
+    
+    
+    
+    <h1>EXPLORE Electronics</h1>
+    <h2></h2>
+    <nav class="navbar2 egypt-navbar2">
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#Popular">Popular Products</a></li>
+            <li><a href="#Discover">Discover</a></li>
+            <li><a href="#contact">Contact us</a></li>
+        </ul>
+    </nav>
+</div>
+
+<div id="mid1" >
+    <h1><a name="Popular">Popular Products</a></h1>
+   
+    
+    <div class="card">
+        <img src="../images/electropic2.jpg" class="card-img">
+            <div class="card-body">
+              <h1 class="card-title">Oculus Rift 2</h1>
+              <p class="card-sub-title">VR set</p>
+              <p class="card-info">the amazing virtual reality in your hands</p>
+              <a href="#"><button class="card-btn egyptcard-btn">Price: 499 BHD</button></a>
+            </div>
+        </div>
+        
+        
+        <div class="card">
+            <img src="../images/electropic4.jpg" class="card-img">
+                <div class="card-body">
+                  <h1 class="card-title">Streaming Mic</h1>
+                  <p class="card-sub-title">Microphone</p>
+                  <p class="card-info">The mic with the most comforting clear sound</p>
+                  <a href="#"><button class="card-btn egyptcard-btn">Price: 299 BHD</button></a>
+               
+                </div>
+            </div>
+            
+            <div class="card">
+                <img src="../images/electronicspic5.jpg" class="card-img">
+                    <div class="card-body">
+                      <h1 class="card-title">Scooter</h1>
+                      <p class="card-sub-title">E-Scooter</p>
+                      <p class="card-info">electronic scooter with many abilities</p>
+                          <a href="#"><button class="card-btn egyptcard-btn">Price: 700 BHD</button></a>
+                    </div>
+                </div>
+               
+        
+                <div class="card">
+                    <img src="../images/electropic7.jpg" class="card-img">
+                        <div class="card-body">
+                          <h1 class="card-title">Xbox 1</h1>
+                          <p class="card-sub-title">Game Station</p>
+                          <p class="card-info">a high demand station of games</p>
+                          <a href="#"><button class="card-btn egyptcard-btn">Price: 199 BHD</button></a>
+                        </div>
+                    </div>
+    
+</div>
+
+<h1 class="mid2-h1"><a name="Discover">Discover Electronics</a></h1>
+
+<div class="mid2 ">
+    <div class="box egyptbox ">
+    <img src="../images/electropic1.jpg" class="left">
+    <h2>Headphones</h2>
+    <p class="leftp">apple headphones with clear sound</p>
+    </div>
+
+    <div class="box egyptbox">
+        <img src="../images/electropic8.jpg" class="left">
+        <h2>Nztxt Keyboard</h2>
+        <p class="leftp"> the most comforting keyboard with red switches
+        </p>
+        </div>
+        </div>
+
+        <div id="mid3">
+            <div class="box egyptbox">
+                <img src="../images/electropic9.jpg" class="right">
+                <h2>Logitech Mouse</h2>
+                <p>the best rendering mouse</p></div>
+    
+
+        <div class="box egyptbox">
+            <img src="../images/electropic10.jpg" class="right">
+            <h2>MacBook Pro</h2>
+            <p>Best desgin of apple</p>
+            </div>       
+</div>
+<div class="mid4">
+    <div class="box egyptbox">
+    <img src="../images/electropic11.jpg" class="left">
+    <h2>Imac</h2>
+    <p class="leftp">the best pc of apple</p>
+    </div>
+
+
+    <div class="box egyptbox">
+        <img src="../images/electropic12.jpg" class="left">
+        <h2>LG TV</h2>
+        <p class="leftp">the most clear resolution</p>
+        </div>
+        </div>
+
+<div class="Footer egyptfooter ">
+    <br><br>
+    <a name="contact"><div class="socialIcons"></a>
+      <a href=""><i class="fa-brands fa-facebook"></i></a>
+      <a href=""><i class="fa-brands fa-instagram"></i></a>
+      <a href=""><i class="fa-brands fa-twitter"></i></a>
+      <a href=""><i class="fa-brands fa-snapchat"></i></a>
+      <a href=""><i class="fa-brands fa-youtube"></i></a>
+    </div>
+<ul>
+    <li><a href="index.html">Home</a></li>
+    <li><a href="Electronics.html">Electronics</a></li>
+    <li><a href="Clothes.html">Clothes</a></li>
+    <li><a href="Furniture.html">Furniture</a></li>
+    <li><a href="makingofushop.html">Making of Ushop</a></li>
+    <li><a href="ourstory.html">Our Story</a></li>
+</ul>
+<p>Copy right &copy;2023; Designed by <span>Ushop</span></p>
+</div>
+
+
+    </body>
+
+</html>

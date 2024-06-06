@@ -1,0 +1,233 @@
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="../css/subpagesstyle.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+   <meta charset="UTF-8"> 
+   <meta name="viewport" content="width=device-width, intial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<script>
+    document.addEventListener('DOMContentLoaded', function () {
+    // Retrieve user's name from local storage
+    var firstName = localStorage.getItem('firstName');
+    var lastName = localStorage.getItem('lastName');
+
+    // Display the user's name in the accountname div
+    var accountDiv = document.getElementById('accountname');
+    if (firstName && lastName) {
+        accountDiv.innerHTML = `Explorer ${firstName} ${lastName}`;
+    }
+});
+</script>
+    </head>
+
+    <body id="italybody" class="shared-body">
+
+        <div id="container">
+<div id="header1">
+    <video autoplay loop muted plays-inline class="back-video">
+        <source src="../videos/clothes_videos.mp4" type="video/mp4">
+    </video>
+
+
+<header class="header">
+    <a href="index.html" class="logo">Ushop</a>
+
+    <nav class="navbar1 italy-navbar1">
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li class="dropdown">
+
+                <a href="#" class="dropbtn">
+                    Destinations <i class="fas fa-caret-down"></i>
+                </a>
+                <div class="dropdown-content">
+                    
+                   <a href="Furniture.html">Furniture</a> 
+                    <a href="Clothes.html">Clothes</a>
+                    <a href="Electronics.html">Electronics</a>
+                </div>
+            </li>
+           
+            <li><a href="makingofushop.html">Making of Ushop</a></li>
+            <li><a href="ourstory.html">Our story</a></li>
+        </ul>
+    </nav>
+    
+
+    <div id="accountname">
+        <!-- This is where the user's name will be displayed -->
+        <!-- Initially empty until the user registers and their name is stored in local storage -->
+    </div>
+    
+    
+    
+
+
+
+
+
+    </header>
+    
+    
+    
+
+
+<!---->
+    <h1> EXPLORE Clothes</h1>
+    <h2></h2>
+    <nav class="navbar2 italy-navbar2">
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#Popular">Popular Products</a></li>
+            <li><a href="#Discover">Discover</a></li>
+            <li><a href="#contact">Contact us</a></li>
+        </ul>
+    </nav>
+</div>
+
+<div id="mid1" >
+    <h1><a name="Popular">Popular Products</a></h1>
+<div class="card">
+<img src="../images/clothespic2.jpg" class="card-img">
+
+    <div class="card-body">
+      <h1 class="card-title">Sliver Dress</h1>
+      <p class="card-sub-title">Chic Sliver Dress</p>
+      <p class="card-info">the mighty dress that belongs to kendall jenner</p>
+      <a href=""><button class="card-btn italycard-btn">Price: 450 BHD</button></a>
+    </div>
+</div>
+
+
+
+<div class="card">
+    <img src="../images/clothespic3.jpg" class="card-img"> 
+        <div class="card-body">
+          <h1 class="card-title">Black Suit</h1>
+          <p class="card-sub-title">Balenciga Suit</p>
+          <p class="card-info">the most passionate suite</p>
+          <a href=""><button class="card-btn italycard-btn">Price: 700 BHD</button></a>
+       
+        </div>
+    
+    </div>
+    
+    
+    <div class="card">
+        <img src="../images/clothespic4.jpg" class="card-img">
+            <div class="card-body">
+              <h1 class="card-title">The loin Shirt</h1>
+              <p class="card-sub-title">Loewe</p>
+              <p class="card-info">the most cozy shirt</p>
+              <a href=""><button class="card-btn italycard-btn">Price: 899 BHD</button></a>
+            </div>
+        </div>
+       
+
+        <div class="card">
+            <img src="../images/clothespic5.jpg" class="card-img">
+                <div class="card-body">
+                  <h1 class="card-title">The boo coat from floptropica state</h1>
+                  <p class="card-sub-title">floptropica is the best</p>
+                  <p class="card-info">The most cozy coat with great color</p>
+                  <a href=""><button class="card-btn italycard-btn">Price: 9999 BHD</button></a>
+                </div>
+            </div>
+           
+</div>
+
+<h1 class="mid2-h1"><a name="Discover">Discover Clothes</a></h1>
+
+<div class="mid2">
+    <div class="box italybox">
+    <img src="../images/clothespic0.jpg" class="left">
+    <h2><a href="">The OOZ Jacket</a></h2>
+    <p class="leftp">the green elegant jacket from africa
+
+        Price: 50BD
+        .</p>
+    </div>
+
+    <div class="box italybox">
+        <img src="../images/clothespic00.jpg" class="left">
+        <h2><a href="">The Ban Shoes</a></h2>
+        <p class="leftp">shoes from the mighty country of india
+            
+            Price: 15 BD
+            </p>
+        </div>
+        </div>
+        <div id="mid3">
+        <div class="box italybox">
+            <img src="../images/clothespic000.jpg" class="right">
+            <h2><a href="">nike jacket sample</a></h2>
+            <p>the trending nike cozy vibes
+                
+                Price: 20 BD
+                .</p>
+            </div>
+
+            <div class="box italybox">
+                <img src="../images/clothespic0000.jpg" class="right">
+                <h2><a href="">Nike Shoes</a></h2>
+                <p>the nike shoes that nicky minayah wore
+                    
+                    Price: 25 BD 
+                    </p>
+                </div>       
+
+</div>
+<div class="mid4">
+    <div class="box italybox">
+    <img src="../images/clothepic090.jpg" class="left">
+    <h2><a href="">Blue Glossy heels</a></h2>
+    <p class="leftp">the most perfectly and comfortable heels in the market 
+        
+        Price: 20 BD
+        </p>
+    </div>
+
+    <div class="box italybox">
+        <img src="../images/ringpic0.jpg" class="left">
+        <h2><a href="">Golden Ring</a></h2>
+        <p class="leftp">Smooth and chic yet glossy an mordern golden ring
+            
+            Price: 35 BD
+            </p>
+        </div>
+        </div>
+
+<div class="Footer italyfooter">
+    <br><br>
+    <a name="contact"><div class="socialIcons"></a>
+      <a href=""><i class="fa-brands fa-facebook"></i></a>
+      <a href=""><i class="fa-brands fa-instagram"></i></a>
+      <a href=""><i class="fa-brands fa-twitter"></i></a>
+      <a href=""><i class="fa-brands fa-snapchat"></i></a>
+      <a href=""><i class="fa-brands fa-youtube"></i></a>
+    </div>
+<ul>
+    <li><a href="index.html">Home</a></li>
+    <li><a href="Electronics.html">Electronics</a></li>
+    <li><a href="Clothes.html">Clothes</a></li>
+    <li><a href="Furniture.html">Furniture</a></li>
+    <li><a href="makingofushop.html">Making of Ushop</a></li>
+    <li><a href="ourstory.html">Our story</a></li>
+</ul>
+<p>Copy right &copy;2023; Designed by <span>Ushop</span></p>
+</div>
+
+
+
+
+
+
+    
+       
+
+       
+        
+
+    </body>
+
+</html>
